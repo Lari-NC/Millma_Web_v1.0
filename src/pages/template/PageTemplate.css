@@ -1,0 +1,22 @@
+.Template {
+  padding: 0%;
+  margin: -8px; /* POR QUEEEEE??! */
+  background-color: #000000; /* #FEFEE1; */
+  overflow: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+/* 
+.Template .Header {
+  width: 100%;
+} */
+
+.Template .Title {
+  color: #3b6379;
+  font-size: 50px;
+  font-weight: 500;
+}

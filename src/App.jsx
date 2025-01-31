@@ -1,10 +1,17 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageTemplate from "./pages/template/PageTemplate";
+// import { ToastContainer } from 'react-toastify';
 
-function App() {
+const App = () => {
   return (
-    <div className="Container">
-      <h className="Title"> THIS IS MILLMA´S WEB! </h>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PageTemplate />}>
+        </Route>
+      </Routes>
+      {/* <ToastContainer />  */}
+    </BrowserRouter>
   );
 }
 
