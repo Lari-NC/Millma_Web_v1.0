@@ -1,0 +1,20 @@
+#root {
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  height: 100vh;
+  width: 100%; 
+  background-color: #fefee1;
+  overflow: auto;
+}
+
+.Container {
+  text-align: center;
+}
+
+.Container .Title {
+  color: #3b6379;
+  font-size: 50px;
+  font-weight: 500;
+}
